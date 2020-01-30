@@ -36,6 +36,10 @@ import math
 import pickle
 from sklearn.svm import SVC
 
+image_paths = "image path"
+data_dir = "File path here"
+model = "model path"
+
 def main(args):
   
     with tf.Graph().as_default():
